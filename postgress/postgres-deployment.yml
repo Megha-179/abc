@@ -69,7 +69,7 @@ metadata:
   labels:
     app: wordpres-db
 spec:
-  serviceName: "postgres-svc"
+  serviceName: "postgres-db"
   replicas: 1
   selector:
     matchLabels:

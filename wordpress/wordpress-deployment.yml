@@ -22,7 +22,7 @@ spec:
         - name: WORDPRESS_DB_NAME
           value: postgresdb
         - name: WORDPRESS_DB_HOST
-          value: "postgres-db:5432"
+          value: "postgres-db.postgres-ns:5432"
         - name: WORDPRESS_DB_USER
           value: chandra_test
         - name: WORDPRESS_DB_PASSWORD
